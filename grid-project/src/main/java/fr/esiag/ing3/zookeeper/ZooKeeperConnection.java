@@ -35,4 +35,14 @@ public class ZooKeeperConnection {
 	   public void close() throws InterruptedException {
 	      zoo.close();
 	   }
+
+	public ZooKeeper getZoo() {
+		return zoo;
 	}
+
+	public void setZoo(ZooKeeper zoo) {
+		this.zoo = zoo;
+	}
+	   
+	   
+}
