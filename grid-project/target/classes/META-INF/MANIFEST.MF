@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Implementation-Title: grid-project
-Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Version: 1
 Built-By: Ho
 Implementation-Vendor-Id: fr.esiag.ing3
 Build-Jdk: 1.8.0_161
