@@ -108,7 +108,7 @@
 						<configuration>
 							<imageName>${docker.image.prefix}/${project.artifactId}</imageName>
 							<dockerDirectory>src/main/docker</dockerDirectory>
-							<dockerHost>http://localhost:2377</dockerHost>
+							<dockerHost>http://localhost:2375</dockerHost>
 							<dockerCertPath></dockerCertPath>
 							<resources>
 								<resource>
