@@ -1,4 +1,10 @@
-version: '2'
+
+version: '3'
 services:
   book-service:
     image: esipe/grid-project
+    ports:
+      - 8080:8080
+    deploy:
+      mode: replicated
+      replicas: 3
